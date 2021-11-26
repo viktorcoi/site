@@ -1,0 +1,23 @@
+@media screen and (max-width:1180px) {
+    section {
+        width: 61.7vw;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    :root{
+  
+    }
+}
+
+@media screen and (max-width:767px) {
+    :root{
+        
+    }
+}
+
+@media screen and (max-width:425px) {
+    :root{
+   
+    }
+}

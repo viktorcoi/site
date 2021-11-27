@@ -376,7 +376,7 @@ li {
 
 .mixing section:last-child > div:last-child h4 {
     letter-spacing: 0.1em;
-    width: 4.69rem;
+    width: max(4.69rem, 50px);
     margin-top: 0.1rem;
     font-size: max(1.75rem, 20px);
 }

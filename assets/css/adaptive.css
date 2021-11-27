@@ -1,0 +1,29 @@
+@media screen and (max-width:1180px) {
+    section {
+        width: 61.7vw;
+    }
+
+    .header-background .header {
+        width: 83vw;
+    }
+
+    header .main-menu-background nav {
+        width: 83vw;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    
+}
+
+@media screen and (max-width:767px) {
+    :root{
+        
+    }
+}
+
+@media screen and (max-width:425px) {
+    :root{
+   
+    } 
+}

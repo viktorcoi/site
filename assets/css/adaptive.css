@@ -1,0 +1,193 @@
+@media screen and (max-width:1180px) {
+    .container .mixing {
+        width: 61.7vw;
+    }
+
+    .header-background .header {
+        width: 83vw;
+    }
+
+    header .main-menu-background nav {
+        width: 83vw;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .main-menu-background nav li:hover .submenu {
+        visibility: visible;
+        max-height: 500px;
+    } 
+
+    .for-contacts-mini {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    html {
+        font-size: 15px;
+    }
+
+    .header-background {
+        min-height: 48px;
+    }
+
+    .container {
+        padding: 48px 2em 3em 2em;
+        flex-direction: column;
+    }
+
+    .container .mixing {
+        width: auto;
+    }
+
+    .header-background .header {
+        width: 93vw;
+    }
+
+    h6 {
+        margin-left: 0;
+    }
+
+    .button-menu-mini {
+        display: flex;
+    }
+
+    .background-mini-menu {
+        position: absolute;
+        overflow: hidden;
+        right: 0;
+        top: 0;
+        background: rgba(0, 0, 0, 0.8);
+        height: 100vh;
+        width: 100vw;
+        display: none;
+        backdrop-filter: blur(6px);
+        z-index: -1;
+        max-width: 0;
+        visibility: hidden;
+    } 
+
+    .for-contacts {
+        display: none;
+    }
+
+    .for-contacts-mini {
+        position: absolute;
+        bottom: 100px;
+        width: 13.1em;
+        height: 3.4em;
+        min-height: 40.8px;
+        min-width: 157.19px;
+    }
+
+    .for-contacts-mini .img-contacts {
+        width: 3em;
+        height: 3em;
+        min-width: 36px;
+        min-height: 36px;
+    }
+
+    .background-mini-menu {
+        display: block;
+    }
+    
+    .copy-email {
+        width: max(12.6em, 151.2px);
+    }
+
+    .copy-email.copied {
+        height: 2.95em;
+    }
+
+    header .main-menu-background nav {
+        width: 50vw;
+        min-width: 230px;
+        margin-top: 3.44em;
+        padding-bottom: max(4.3em, 62px);
+        margin-top: 70px;
+    }
+
+    .main-menu-background nav > ul > li:hover {
+        background: none;
+    }
+    
+    .submenu.open  {
+        visibility: visible;
+        max-height: 500px;
+    } 
+
+    .submenu:last-child {
+        border-radius: 0 0 0 0;
+    }
+
+    header .main-menu-background {
+        position: absolute;
+        right: 0;
+        height: 100vh;
+    }
+
+    header .main-menu-background > nav > ul {
+        display: block;
+    }
+
+    .submenu {
+        position: relative;
+    }
+
+    .mixing .select {
+        width: 234px;
+    }
+
+    button {
+        padding: 7px 58.4px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    html {
+        font-size: 12px;
+    }
+
+    .mixing p {
+        max-width: 420px;
+    }
+
+    .copy-email {
+        width: 151.2px;
+    }
+
+    .copy-email.copied {
+        height: 36px;
+    }
+
+    .button-menu-mini {
+        width: 30px;
+    }
+
+    .button-menu-mini div {
+        border: 1.5px solid #B9B9B9;
+        background: #B9B9B9;
+        margin: 2.5px 0;
+    }
+}
+
+@media screen and (max-width:522px) {
+    html {
+        font-size: 9px;
+    }
+
+    .mixing p {
+        max-width: 314px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    html {
+        font-size: 7.2px;
+    }
+
+    .mixing p {
+        max-width: 253px;
+    }
+}

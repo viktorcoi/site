@@ -58,13 +58,15 @@
         overflow: hidden;
         right: 0;
         top: 0;
-        background: rgba(0, 0, 0, 0.9);
+        background: rgba(0, 0, 0, 0.8);
         height: 100vh;
         width: 100vw;
         display: none;
         z-index: -1;
         max-width: 0;
         visibility: hidden;
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
     } 
 
     .for-contacts {

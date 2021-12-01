@@ -556,6 +556,11 @@ input[type=checkbox]:checked ~ div {
     border: none;
     resize: none;
     margin: 0.94rem 0 1.25rem 0;
+    -webkit-user-select: initial;
+      -khtml-user-select: initial;
+      -moz-user-select: initial;
+      -ms-user-select: initial;
+      user-select: initial;
 }
 
 .popup > div:first-child > img:hover {
